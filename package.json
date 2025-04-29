@@ -1,0 +1,32 @@
+{
+  "name": "desafio-1-1s-vs-3j",
+  "version": "1.0.0",
+  "description": "Você tem 1 hora para criar uma API que recebe um arquivo JSON com 100.000 usuários e oferece endpoints performáticos e bem estruturados para análise dos dados.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EwertonSolitto/desafio-1-1s-vs-3j.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EwertonSolitto/desafio-1-1s-vs-3j/issues"
+  },
+  "homepage": "https://github.com/EwertonSolitto/desafio-1-1s-vs-3j#readme",
+  "dependencies": {
+    "fastify": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
